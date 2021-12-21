@@ -7,13 +7,15 @@ import { HomeComponent } from './views/home/home.component';
 import { SejaMembroComponent } from './views/seja-membro/seja-membro.component';
 import { HeaderComponent } from './views/header/header.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FooterComponent } from './views/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     SejaMembroComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

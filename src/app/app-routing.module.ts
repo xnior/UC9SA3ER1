@@ -7,6 +7,7 @@ const routes: Routes = [
 {  path:"",component: HomeComponent},
 {path:"seja-membro",component: SejaMembroComponent }
 
+
 ];
 
 @NgModule({
